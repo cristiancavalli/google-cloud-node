@@ -23,6 +23,7 @@ $ npm test
 To run the system tests, first create and configure a project in the Google Developers Console following the [instructions on how to run google-cloud-node][elsewhere]. After that, set the following environment variables:
 
 - **GCLOUD_TESTS_PROJECT_ID**: Developers Console project's ID (e.g. bamboo-shift-455)
+- ***GCLOUD_TESTS_PROJECT_NUMBER*** (*optional*): Developers Console project number (e.g. 1046198160504)
 - **GCLOUD_TESTS_KEY**: The path to the JSON key file.
 - ***GCLOUD_TESTS_API_KEY*** (*optional*): An API key that can be used to test the Translate API.
 - ***GCLOUD_TESTS_DNS_DOMAIN*** (*optional*): A domain you own managed by Cloud DNS (expected format: `'gcloud-node.com.'`).
